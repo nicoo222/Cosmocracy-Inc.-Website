@@ -1667,6 +1667,12 @@ pre code {
   }
 }
 
+@media (max-width: 800px) {
+  .carousel-control{
+    height:350px;
+  }
+}
+
 .table {
   width: 100%;
   margin-bottom: 1rem;
@@ -6626,6 +6632,12 @@ a.close.disabled {
   content: "";
 }
 
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+
 .carousel-item {
   position: relative;
   display: none;
@@ -10672,8 +10684,8 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, 0.8)), to(rgba(92, 77, 66, 0.8))), url("../img/bg-fractal.jpg");
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/bg-fractal.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, 0.8)), to(rgba(92, 77, 66, 0.8))), url("../img/bg-map.jpg");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/bg-map.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
