@@ -1,6 +1,10 @@
 (function($) {
   "use strict"; // Start of use strict
 
+  // manual carousel controls
+  $('.next').click(function(){ $('.carousel').carousel('next');return false; });
+  $('.prev').click(function(){ $('.carousel').carousel('prev');return false; });
+
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
