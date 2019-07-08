@@ -10791,3 +10791,8 @@ header.masthead h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+
+.myhover:hover {
+  opacity: 0.6;
+
+}

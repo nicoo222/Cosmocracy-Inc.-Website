@@ -5,6 +5,22 @@
   $('.next').click(function(){ $('.carousel').carousel('next');return false; });
   $('.prev').click(function(){ $('.carousel').carousel('prev');return false; });
 
+  $('.carousel.carousel-multi-item.v-2 .carousel-item').each(function(){
+    var next = $(this).next();
+    if (!next.length) {
+      next = $(this).siblings(':first');
+    }
+    next.children(':first-child').clone().appendTo($(this));
+  
+    for (var i=0;i<4;i++) {
+      next=next.next();
+      if (!next.length) {
+        next=$(this).siblings(':first');
+      }
+      next.children(':first-child').clone().appendTo($(this));
+    }
+  });
+  
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -58,5 +74,6 @@
       tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
     }
   });
+
 
 })(jQuery); // End of use strict
