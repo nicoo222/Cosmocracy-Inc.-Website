@@ -1,29 +1,49 @@
-(function($) {
+(function ($) {
   "use strict"; // Start of use strict
+  
+  $(document).ready(function () {
+    $("#news-slider10").owlCarousel({
+      items: 4,
+      itemsDesktop: [1199, 3],
+      itemsDesktopSmall: [980, 2],
+      itemsMobile: [600, 1],
+      navigation: true,
+      navigationText: ["", ""],
+      pagination: true,
+      autoPlay: true
+    });
+  });
 
   // manual carousel controls
-  $('.next').click(function(){ $('.carousel').carousel('next');alert('next');return false;});
-  $('.prev').click(function(){ $('.carousel').carousel('prev');return false; });
+  $('.next').click(function () {
+    $('.carousel').carousel('next');
+    alert('next');
+    return false;
+  });
+  $('.prev').click(function () {
+    $('.carousel').carousel('prev');
+    return false;
+  });
 
-  $('.carousel.carousel-multi-item.v-2 .carousel-item').each(function(){
+  $('.carousel.carousel-multi-item.v-2 .carousel-item').each(function () {
     var next = $(this).next();
     if (!next.length) {
       next = $(this).siblings(':first');
     }
     next.children(':first-child').clone().appendTo($(this));
-  
-    for (var i=0;i<4;i++) {
-      next=next.next();
+
+    for (var i = 0; i < 4; i++) {
+      next = next.next();
       if (!next.length) {
-        next=$(this).siblings(':first');
+        next = $(this).siblings(':first');
       }
       next.children(':first-child').clone().appendTo($(this));
     }
   });
-  
+
 
   // Smooth scrolling using jQuery easing
-  $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
+  $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
@@ -37,7 +57,7 @@
   });
 
   // Closes responsive menu when a scroll trigger link is clicked
-  $('.js-scroll-trigger').click(function() {
+  $('.js-scroll-trigger').click(function () {
     $('.navbar-collapse').collapse('hide');
   });
 
@@ -48,7 +68,7 @@
   });
 
   // Collapse Navbar
-  var navbarCollapse = function() {
+  var navbarCollapse = function () {
     if ($("#mainNav").offset().top > 100) {
       $("#mainNav").addClass("navbar-scrolled");
     } else {

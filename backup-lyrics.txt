@@ -1,0 +1,173 @@
+backup-lyrics
+  <div class="col-lg-4 col-md-4 text-center">
+          <div class="mt-2">
+            <h3 class="h4">Lyrics</h3>
+            <p class="text-muted mb-0">You can download audio files by choosing one of the proposed formats</p>
+            <a target="_blank" href="" download>01 - A Ride Across Your Mind.flac</a>
+
+            <div class="accordion" id="albumAccordion">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                      aria-expanded="false" aria-controls="collapseOne">
+                      A Ride Across Your Mind
+                    </button>
+                  </h2>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#albumAccordion">
+                  <div class="card-body">
+                    <p style="font-size:12px"> (Instrumental) </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                      data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Reptile
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#albumAccordion">
+                  <div class="card-body">
+                    <p style="font-size:12px"> In our long days of exile </br>
+                      in the corridors of a place </br>
+                      no one can see, yeah </br>
+                      we've been crawling as the reptile, </br>
+                      roaming out to the grace </br>
+                      the Sun may be, yeah. </br> </br>
+
+                      He's chased by the hunters who want his skin </br>
+                      as we are drowned in the poison on our screens. </br> </br>
+
+                      The invaders of our minds </br>
+                      lie repeatedly </br>
+                      and shorten our sleep, yeah. </br>
+                      By now the fool leads out the blind </br>
+                      deceiving him constantly </br>
+                      in a golden trip, yeah. </br> </br>
+
+                      Pixels enlighten the dead black grave </br>
+                      as shadows cast on the walls of the cave. </br> </br>
+
+                      We gotta expel the merchants from our temple! </br>
+                      We gotta smash it once and for all! </br>
+                      C'mon! </br> </br>
+
+                      The flux of words and pictures </br>
+                      is boiling out our brains </br>
+                      and crush our spirits, right. </br>
+                      In growing us shallow desires </br>
+                      and stick us to our chains </br>
+                      there's no limit. </br> </br>
+
+                      See behind the scenes the real show! </br>
+                      Dash through the smokescreen and learn what we ought to know! </br> </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                      data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Echoes In My Head
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#albumAccordion">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                    wolf
+                    moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                    eiusmod.
+                    Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                    shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                    ea
+                    proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw
+                    denim
+                    aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header" id="headingFour">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                      data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      I Can Feel It Dying
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#albumAccordion">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                    wolf
+                    moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                    eiusmod.
+                    Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                    shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                    ea
+                    proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw
+                    denim
+                    aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header" id="headingFive">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                      data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                      Nightbird
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#albumAccordion">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                    wolf
+                    moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                    eiusmod.
+                    Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                    shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                    ea
+                    proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw
+                    denim
+                    aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header" id="headingSix">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                      data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                      Salvia
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#albumAccordion">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                    wolf
+                    moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                    eiusmod.
+                    Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                    shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                    ea
+                    proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw
+                    denim
+                    aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
