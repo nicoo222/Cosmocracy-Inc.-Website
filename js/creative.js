@@ -1,6 +1,21 @@
 (function ($) {
   "use strict"; // Start of use strict
   
+  $('#modal1').on('hidden.bs.modal', function (e) {
+  // do something...
+    $('#modal1 iframe').attr("src", $("#modal1 iframe").attr("src"));
+  });
+
+  $('#modal6').on('hidden.bs.modal', function (e) {
+    // do something...
+    $('#modal6 iframe').attr("src", $("#modal6 iframe").attr("src"));
+  });
+
+  $('#modal4').on('hidden.bs.modal', function (e) {
+    // do something...
+    $('#modal4 iframe').attr("src", $("#modal4 iframe").attr("src"));
+  });
+
   $(document).ready(function () {
     $("#news-slider10").owlCarousel({
       items: 4,
