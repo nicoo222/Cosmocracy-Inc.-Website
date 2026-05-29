@@ -10816,6 +10816,15 @@ header.masthead h1 {
   padding: 3% 5%;
   background: #e74c3c;
 }
+
+.post-slide10 .post-date-garage-sessions{
+  position:absolute;
+  top:2%;
+  left:8%;
+  padding: 3% 5%;
+  background: #e74c3c;
+}
+
 .post-slide10 .month{
   font-size: 14px;
   color:#fff;
@@ -10835,7 +10844,7 @@ header.masthead h1 {
   font-weight: bold;
 }
 .post-slide10 .post-title{
-  margin:25px 0 15px 0;
+  margin:15px 0 15px 0;
 }
 .post-slide10 .post-title a{
   font-size:15px;
@@ -10893,7 +10902,7 @@ header.masthead h1 {
 .owl-controls .owl-prev:after,
 .owl-controls .owl-next:after{
   content:"\f104";
-  font-family: FontAwesome;
+  font-family: FontAwesome, Arial, Helvetica, sans-serif;
   color: #d3d3d3;
   font-size:16px;
 }
@@ -10929,5 +10938,20 @@ header.masthead h1 {
 }
 
 .img-link {
-  cursor:pointer;
-}
+  /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+  -webkit-transition: all 1s ease; /* Safari et Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* Internet Explorer 9 */
+  -o-transition: all 1s ease; /* Opera */
+  transition: all 1s ease;
+  cursor: pointer;
+  }
+
+  .img-link:hover {
+  /* L'image est grossie de 25% */
+  -webkit-transform:scale(1.1); /* Safari et Chrome */
+  -moz-transform:scale(1.1); /* Firefox */
+  -ms-transform:scale(1.1); /* Internet Explorer 9 */
+  -o-transform:scale(1.1); /* Opera */
+  transform:scale(1.1);
+  }
