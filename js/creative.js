@@ -1,49 +1,6 @@
 (function ($) {
   "use strict"; // Start of use strict
 
-  $('#modal1').on('hidden.bs.modal', function (e) {
-    // do something...
-    $('#modal1 iframe').attr("src", $("#modal1 iframe").attr("src"));
-  });
-
-  $('#modal2').on('hidden.bs.modal', function (e) {
-    // do something...
-    $('#modal2 iframe').attr("src", $("#modal2 iframe").attr("src"));
-  });
-
-  $('#modal3').on('hidden.bs.modal', function (e) {
-    // do something...
-    $('#modal3 iframe').attr("src", $("#modal3 iframe").attr("src"));
-  });
-
-  $('#modal4').on('hidden.bs.modal', function (e) {
-    // do something...
-    $('#modal4 iframe').attr("src", $("#modal4 iframe").attr("src"));
-  });
-
-  $('#modal5').on('hidden.bs.modal', function (e) {
-    // do something...
-    $('#modal5 iframe').attr("src", $("#modal5 iframe").attr("src"));
-  });
-
-  $('#modal6').on('hidden.bs.modal', function (e) {
-    // do something...
-    $('#modal6 iframe').attr("src", $("#modal6 iframe").attr("src"));
-  });
-
-  $(document).ready(function () {
-    $("#news-slider10").owlCarousel({
-      items: 4,
-      itemsDesktop: [1199, 3],
-      itemsDesktopSmall: [980, 2],
-      itemsMobile: [600, 1],
-      navigation: false,
-      navigationText: ["<-", "->"],
-      pagination: true,
-      autoPlay: false
-    });
-  });
-
   // manual carousel controls
   $('.next').click(function () {
     $('.carousel').carousel('next');

@@ -6796,6 +6796,41 @@ a.close.disabled {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e");
 }
 
+#galleryCarousel .carousel-control-prev,
+#galleryCarousel .carousel-control-next {
+  top: 50%;
+  bottom: auto;
+  width: 56px;
+  height: 56px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.65);
+  opacity: 0.95;
+  transition: background 0.15s ease, opacity 0.15s ease;
+}
+
+#galleryCarousel .carousel-control-prev {
+  left: 28px;
+}
+
+#galleryCarousel .carousel-control-next {
+  right: 28px;
+}
+
+#galleryCarousel .carousel-control-prev:hover,
+#galleryCarousel .carousel-control-prev:focus,
+#galleryCarousel .carousel-control-next:hover,
+#galleryCarousel .carousel-control-next:focus {
+  background: #e74c3c;
+  opacity: 1;
+}
+
+#galleryCarousel .carousel-control-prev-icon,
+#galleryCarousel .carousel-control-next-icon {
+  width: 28px;
+  height: 28px;
+}
+
 .carousel-indicators {
   position: absolute;
   right: 0;
@@ -10708,8 +10743,8 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, 0.8)), to(rgba(92, 77, 66, 0.8))), url("../img/bg-map.jpg");
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/bg-map.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(92, 77, 66, 0.8)), to(rgba(92, 77, 66, 0.8))), url("../img/background-lapalette.webp");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/background-lapalette.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10796,6 +10831,13 @@ header.masthead h1 {
   opacity: 0.6;
 }
 
+.video-thumb {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
 /******************  News Slider Demo-10 *******************/
 .post-slide10{
   padding-bottom: 10px;
@@ -10804,10 +10846,13 @@ header.masthead h1 {
   background:#fff !important;
   box-shadow: 0 1px 2px rgba(43,59,93,0.30);
   margin-bottom:2em;
+  display: flex;
+  flex-direction: column;
 }
 .post-slide10 img{
   width: 100%;
-  height: auto;
+  height: 190px;
+  object-fit: cover;
 }
 .post-slide10 .post-date{
   position:absolute;
@@ -10870,6 +10915,7 @@ header.masthead h1 {
   padding:0px 15px;
   text-transform:capitalize;
   transition: color 0.20s linear;
+  margin-top: auto;
 }
 .post-slide10 .read-more i{
   margin-left:10px;
@@ -10901,17 +10947,28 @@ header.masthead h1 {
 }
 .owl-controls .owl-prev:after,
 .owl-controls .owl-next:after{
-  content:"\f104";
-  font-family: FontAwesome, Arial, Helvetica, sans-serif;
+  content:"";
+  font-family: Arial, Helvetica, sans-serif;
   color: #d3d3d3;
   font-size:16px;
 }
 .owl-controls .owl-next:after{
-  content:"\f105";
+  content:"";
 }
 .owl-controls .owl-prev:hover,
 .owl-controls .owl-next:hover{
   background: #e74c3c;
+}
+#news-slider .owl-prev,
+#news-slider .owl-next{
+  color: #d3d3d3;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1;
+}
+#news-slider .owl-prev.disabled,
+#news-slider .owl-next.disabled{
+  display: none;
 }
 @media only screen and (max-width: 990px) {
   .post-slide10{

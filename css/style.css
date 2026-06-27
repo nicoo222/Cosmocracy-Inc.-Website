@@ -1,0 +1,4 @@
+/* To disable arrows on first and last slide */
+.disabled {
+  display: none;
+}
