@@ -11215,6 +11215,22 @@ header.projets-connexes-head .container {
 }
 
 @media (max-width: 767px) {
+  header.projets-connexes-head {
+    min-height: 300vw;
+  }
+
+  .related-projects-hero-collage {
+    flex-direction: column;
+  }
+
+  .related-projects-hero-image {
+    flex: 0 0 100vw;
+    width: 100%;
+    background-color: #212529;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
   .related-projects-cta {
     align-items: flex-start;
     flex-direction: column;
