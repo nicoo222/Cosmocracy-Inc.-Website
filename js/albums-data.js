@@ -18,8 +18,9 @@ window.ALBUMS_DATA = {
       "image": "img/albums/live-in-metz-2026.jpg",
       "bandcamp": {
         "embedSrc": "https://bandcamp.com/EmbeddedPlayer/album=2076973714/size=large/bgcol=333333/linkcol=0f91ff/artwork=none/transparent=true/",
-        "link": "https://cosmocracyinc.bandcamp.com/album/live-in-metz-july-2026"
-      },
+        "link": "https://cosmocracyinc.bandcamp.com/album/live-in-metz-july-2026",
+        "trackCount": 9
+      }
     },
     {
       "id": "araym",
@@ -37,7 +38,8 @@ window.ALBUMS_DATA = {
       "image": "img/albums/A Ride Across Your Mind.jpg",
       "bandcamp": {
         "embedSrc": "https://bandcamp.com/EmbeddedPlayer/album=3938173063/size=large/bgcol=333333/linkcol=0f91ff/artwork=none/transparent=true/",
-        "link": "http://cosmocracyinc.bandcamp.com/album/a-ride-across-your-mind"
+        "link": "http://cosmocracyinc.bandcamp.com/album/a-ride-across-your-mind",
+        "trackCount": 6
       },
       "lyrics": {
         "href": "https://www.dropbox.com/scl/fi/r0o087sm4mtul8lrdysic/Cosmocracy_Inc-ARAYM-2019_complete_lyrics.pdf?rlkey=a8riahuge78aqjwllxaz3ruav&st=pl7qi7fn&dl=0",

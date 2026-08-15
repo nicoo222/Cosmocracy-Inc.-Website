@@ -64,8 +64,10 @@
 
     var bandcampHTML = '';
     if(album.bandcamp && album.bandcamp.embedSrc){
-      // embedded player (height controlled by CSS)
-      bandcampHTML = '<div class="mt-2 album-bandcamp-embed"> <iframe style="border:0;width:100%;" src="'+album.bandcamp.embedSrc+'" seamless></iframe></div>';
+      // Bandcamp's large player grows with the track list, so size the iframe to fit them all
+      var baseHeight = 120, heightPerTrack = 38, minHeight = 340;
+      var embedHeight = album.bandcamp.embedHeight || (album.bandcamp.trackCount ? Math.max(minHeight, baseHeight + album.bandcamp.trackCount * heightPerTrack) : minHeight);
+      bandcampHTML = '<div class="mt-2 album-bandcamp-embed"> <iframe style="border:0;width:100%;height:'+embedHeight+'px;" src="'+album.bandcamp.embedSrc+'" seamless></iframe></div>';
     }
 
     var downloadsHTML = renderDownloads(album, data);
@@ -145,7 +147,7 @@
       lyricsName = (dl.lyrics && dl.lyrics.name) ? dl.lyrics.name : lyricsLabel;
     }
     if(lyricsHref){
-      lyricsButtonHTML = '<a class="btn btn-outline-primary btn-block btn-lyrics" href="'+lyricsHref+'" target="_blank" rel="noopener">'+lyricsName+'</a>';
+      lyricsButtonHTML = '<a class="btn btn-outline-secondary btn-block btn-lyrics" href="'+lyricsHref+'" target="_blank" rel="noopener">'+lyricsName+'</a>';
     }
 
     if(downloadHref){
