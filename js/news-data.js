@@ -1,6 +1,16 @@
 ﻿window.COSMO_NEWS = {
   en: [
     {
+      image: "img/News/perno-2026.png",
+      month: "Nov",
+      date: "25",
+      title: "Live - Le Père Noël est un Rockeur",
+      url: "https://maps.app.goo.gl/RMoETRAcqqeks6By6",
+      description: "Charity concert as part of the event organized by the association “Le Père Noël est un Rocker” at the Maison des étudiants in Nancy (ARTEM campus). Starting at 7:30 pm!",
+      ctaUrl: "https://maps.app.goo.gl/RMoETRAcqqeks6By6",
+      cta: "The place"
+    },
+    {
       image: "img/News/la-dame-jeanne.jpg",
       month: "July",
       date: "13",
@@ -265,9 +275,19 @@
     }
   ],
   fr: [
+     {
+      image: "img/News/perno-2026.png",
+      month: "Novembre 2026",
+      date: "25",
+      title: "Concert - Le Père Noël est un Rockeur",
+      url: "https://maps.app.goo.gl/RMoETRAcqqeks6By6",
+      description: "Concert caritatif dans le cadre de la soirée organisée par l'association Le Père Noël est un Rockeur, à la Maison des étudiants de Nancy (campus ARTEM). Début de la soirée à 19h30 !",
+      ctaUrl: "https://maps.app.goo.gl/RMoETRAcqqeks6By6",
+      cta: "The place"
+    },
     {
       image: "img/News/la-dame-jeanne.jpg",
-      month: "Juillet",
+      month: "Juillet 2026",
       date: "13",
       title: "Concert à La Dame Jeanne",
       url: "https://mobilizon.fr/events/52154bfd-b6d6-472b-aabb-3322861041ce",
@@ -277,7 +297,7 @@
     },
         {
       image: "img/News/396.jpg",
-      month: "Juillet",
+      month: "Juillet 2026",
       date: "12",
       title: "Concert au 3.96 Kaffe",
       url: "https://mobilizon.fr/events/1ce18466-9d73-4f5f-8d5c-e997a9388734",

@@ -10851,8 +10851,9 @@ header.masthead h1 {
 }
 .post-slide10 img{
   width: 100%;
-  height: 190px;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
+  display: block;
 }
 .post-slide10 .post-date{
   position:absolute;
